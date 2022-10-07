@@ -2,11 +2,19 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-image: linear-gradient(
+    to left top,
+    #695e8c,
+    #f47c7a,
+    #87dcff,
+    #e3ce33a4,
+    #2cf378c5
+  );
 }
 
 a {
@@ -23,11 +31,11 @@ ul {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 4rem;
 }
 
@@ -51,7 +59,7 @@ h1 {
 
 h1:hover {
   -webkit-transform: scale(1.25);
-          transform: scale(1.25);
+  transform: scale(1.25);
 }
 
 .pictures {
@@ -59,13 +67,14 @@ h1:hover {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+
 }
 
 .pictures .picture {
@@ -77,20 +86,21 @@ h1:hover {
 .pictures .picture .imageContainer {
   overflow: hidden;
   height: 40vh;
+  border-radius: 20px;
 }
 
 .pictures .picture .imageContainer img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -webkit-transition: all 0.3s ease;
   transition: all 1s ease;
 }
 
 .pictures .picture .imageContainer img:hover {
   -webkit-transform: scale(1.25);
-          transform: scale(1.25);
+  transform: scale(1.25);
 }
 
 .pictures .picture .info {
@@ -98,8 +108,22 @@ h1:hover {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding: 0.5rem;
+  font-size: 1.4rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  border: 2px solid black;
+  margin-top: 8px;
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+
+.pictures .picture .info:hover {
+cursor: pointer;
+background-color: rgba(250, 235, 215, 0.372);
+opacity: 0.8;
+
 }
 /*# sourceMappingURL=style.css.map */
