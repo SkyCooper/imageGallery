@@ -74,7 +74,6 @@ h1:hover {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-
 }
 
 .pictures .picture {
@@ -121,9 +120,11 @@ h1:hover {
 }
 
 .pictures .picture .info:hover {
-cursor: pointer;
-background-color: rgba(250, 235, 215, 0.372);
-opacity: 0.8;
-
+  cursor: pointer;
+  background-color: rgba(189, 198, 64, 0.372);
+  /* opacity: 0.8; */
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 /*# sourceMappingURL=style.css.map */
