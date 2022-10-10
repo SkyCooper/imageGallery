@@ -1,6 +1,6 @@
 # Project : Image Gallery
 
-## Check The Live Website ➡️ [Live Website](https://skycooper.github.io/imageGallery/)
+## Check The Live Website ➡️ [Live Website](https://cooperimagegallery.netlify.app/)
 
 ## Visualization of the Website
 
