@@ -53,7 +53,7 @@ You can see the visual representation of the website above.
 
 - Step 1: Create React App using `npx create-react-app image-gallery`
 
-- Step 2: For images you can use `data.js` [Images](./helper/data.js).
+- Step 2: For images you can use [Images](.src/helper/data.js).
 
 - Step 3: Push your application into your own public repo on Github
 
@@ -61,11 +61,11 @@ You can see the visual representation of the website above.
 
 ## Resources
 
-- 🔥 You can use [Images](./helper/data.js) for your own work.
+- 🔥 You can use [`data.js`](.src/helper/data.js) for your own work.
 
-<center> ⌛ Happy Coding  ✍ </center>
+# <center> ⌛ Happy Coding ✍ </center>
 
-# Getting Started with Create React App
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
